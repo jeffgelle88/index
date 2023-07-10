@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url("1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+			text-align: center;
+			font-size: 25px
+        }
+		h1 {
+			font-size: 80px;
+			color: brown;
+			}
+    </style>
+</head>
+<body>
+	<h1>The Amazing Team</h1>
+	<br />
+	<div>
+		<a href="#"><b>Home</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="About Us.html"><b>About Us</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Contacts.html"><b>Contact Us</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#"><b>Our Work</b></a>
+	</div>
+	<br></br>
+	
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #canvas {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: brown;
+            text-align: center;
+            line-height: 100px;
+            font-family: 'Lato', sans-serif;
+            font-size:30px;
+			color: white;
+        }
+		#canvas span {
+			animation: moveText 3s infinite;
+		}
+        @keyframes moveText {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas">
+        Welcome to our webpage! Please feel free to explore.
+    </div>
+
+</body>
+</html>
